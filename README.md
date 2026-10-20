@@ -44,10 +44,10 @@ Voices are synthetic (text-to-speech). The caller in the videos is a placeholder
 
 ## What I learned
 
-- A phone assistant lives or dies on the **first five seconds** and on **repeating details back**. Both are cheap to build and were worth more than a smarter model.
+- A phone assistant lives or dies on the **first five seconds** and on **repeating details back**. Both are cheap to build.
 - **Keep the word "demo" out of the script.** I removed it from the reception lines and used fictional businesses, so the call plays like a real one.
 - **Verify generated audio automatically.** Round-tripping each clip through transcription flags clips that drift from the script before a human has to listen.
-- **Video as code** makes revisions trivial. Copy changes took minutes instead of an editing session.
+- **Video as code** makes revisions trivial. Copy changes need a rebuild, not an editing session.
 
 ## Stack, briefly
 
