@@ -49,6 +49,11 @@ Voices are synthetic (text-to-speech). The caller in the videos is a placeholder
 - **Verify generated audio automatically.** Round-tripping each clip through transcription flags clips that drift from the script before a human has to listen.
 - **Video as code** makes revisions trivial. Copy changes need a rebuild, not an editing session.
 
+## More in this repo
+
+- [The reception demo](docs/reception-demo.md): a guided call anyone can try in the browser, with fixed recordings and local speech recognition.
+- [Freeing up a full Mac](docs/mac-storage-cleanup.md): where video work eats the disk, and how I got from 4 GB to 65 GB free.
+
 ## Stack, briefly
 
 Telnyx voice and AI assistant · text-to-speech voices · HyperFrames (HTML to video) · ffmpeg · React/Vite site on Vercel.
