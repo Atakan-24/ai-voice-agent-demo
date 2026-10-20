@@ -29,7 +29,7 @@ Details that made it feel real:
 ## What I learned
 
 - **Fixed recordings beat a live model for a public demo.** It cannot say anything embarrassing, it costs nothing per visitor, and it answers instantly.
-- **Pause detection is the product.** Too short and it cuts you off, too long and it feels dead. I tuned it by calling it myself dozens of times.
+- **Pause detection is the product.** Too short and it cuts you off, too long and it feels dead. The demo waits for about 1.8 seconds of silence before it answers.
 - **Say the abbreviations out loud properly.** "HVAC" is spoken as the full words, otherwise it sounds like a machine.
 - **Say what it is.** The page states plainly that it is a guided demo with an AI voice. Nobody feels tricked, and it reads as more professional.
 - **Still open:** a long test with real human speech from several people. Small speech models make recognition mistakes, which is why typing stays available.

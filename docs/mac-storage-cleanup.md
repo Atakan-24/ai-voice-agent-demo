@@ -29,6 +29,6 @@ Takeaway: **apps are rarely the problem, working files are.** Render intermediat
 
 ## A habit that stuck
 
-Render outputs now go to a folder that is excluded from backups and cleaned after each project. Video projects keep only the source and the final file.
+Render outputs are now excluded from Git, so a 200 MB render or a virtual environment can no longer clog a backup.
 
 Back to the [overview](../README.md).
